@@ -1,6 +1,26 @@
-// const clickCountRef = document.getElementById('clickCount');
-// let clickCount = 0;
-// document.addEventListener('click', () => {
-//     clickCount++;
-//     clickCountRef.textContent = clickCount.toString();
-// });
+// const btnRef = document.querySelector("[data-button]");
+// const clickRef = document.querySelector("[data-click-count]");
+// let clickSum = 0;
+
+// const sumClick = function (e) {
+//     clickSum += 1;
+//     clickRef.textContent = clickSum;
+//   return clickSum;
+// };
+
+// btnRef.addEventListener("click", sumClick);
+
+
+
+
+// const btnRef = document.querySelector("[data-button]");
+// const clickRef = document.querySelector("[data-click-count]");
+// let clickSum = 0;
+
+// const sumClick = (e) => {
+//     clickSum += 1;
+//     clickRef.textContent = clickSum;
+//   return clickSum;
+// };
+
+// btnRef.addEventListener("click", sumClick);
